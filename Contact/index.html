@@ -7,7 +7,7 @@
     <!--Animation Scroll-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--iCONs-->
-    <link href="../Image/icon.webp" rel="icon" />
+    <link href="../Image/icon.ico" rel="icon" />
     <!--CSS banner-->
     <link href="./CSS/footer.css" rel="stylesheet" />
     <!-- bulma JavaScript -->
@@ -44,7 +44,13 @@
     >
       <div class="navbar-brand">
         <a class="navbar-item" href="./">
-          <img src="../Image/icon.webp" width="30"   height="30" style="mix-blend-mode: multiply" alt="brand icon"/>
+          <img
+            src="../Image/icon.ico"
+            width="30"
+            height="30"
+            style="mix-blend-mode: multiply"
+            alt="brand icon"
+          />
         </a>
 
         <a
@@ -65,17 +71,17 @@
         <div class="navbar-start">
           <a class="navbar-item" href="../"> หน้าแรก </a>
 
-          <a class="navbar-item"> เกี่ยวกับเรา </a>
+          <a class="navbar-item" href="#"> เกี่ยวกับเรา </a>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link"> สินค้า </a>
+            <a class="navbar-link" href="#"> สินค้า </a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item"> About </a>
-              <a class="navbar-item is-selected"> Jobs </a>
-              <a class="navbar-item"> Contact </a>
-              <hr class="navbar-divider" />
-              <a class="navbar-item"> Report an issue </a>
+              <a class="navbar-item" href="#"> About </a>
+              <a class="navbar-item is-selected" href="#"> Jobs </a>
+              <a class="navbar-item" href="#"> Contact </a>
+              <hr class="navbar-divider" href="#" />
+              <a class="navbar-item" href="#"> Report an issue </a>
             </div>
           </div>
         </div>
@@ -156,8 +162,8 @@
   </body>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script
-    src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
     crossorigin="anonymous"
   ></script>
   <script src="./JS/index.js"></script>
