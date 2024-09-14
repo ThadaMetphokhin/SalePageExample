@@ -1,0 +1,75 @@
+.contact {
+  height: 100vh;
+}
+.social-contact {
+  margin-top: 7rem;
+}
+.line {
+  border-style: solid; /* สีพื้นหลังปุ่ม */
+  border-color: #ff6f59;
+  border-radius: 1rem;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex; /* ใช้ Flexbox ในการจัดเรียง */
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  cursor: pointer;
+}
+.line:hover{
+    background-color: #ffddd8;
+}
+.line img {
+  width: 40px; /* ขนาดรูปภาพ */
+  height: 40px;
+  margin-right: 10px; /* ระยะห่างระหว่างรูปภาพกับข้อความ */
+}
+.Facebook {
+  border-style: solid; /* สีพื้นหลังปุ่ม */
+  border-color: #ff6f59;
+  border-radius: 1rem;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex; /* ใช้ Flexbox ในการจัดเรียง */
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  cursor: pointer;
+}
+.Facebook:hover{
+    background-color: #ffddd8;
+}
+.Facebook img {
+  width: 40px; /* ขนาดรูปภาพ */
+  height: 40px;
+  margin-right: 10px; /* ระยะห่างระหว่างรูปภาพกับข้อความ */
+}
+.tele {
+  border-style: solid; /* สีพื้นหลังปุ่ม */
+  border-color: #ff6f59;
+  border-radius: 1rem;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex; /* ใช้ Flexbox ในการจัดเรียง */
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  cursor: pointer;
+}
+.tele img {
+  width: 40px; /* ขนาดรูปภาพ */
+  height: 40px;
+  margin-right: 10px; /* ระยะห่างระหว่างรูปภาพกับข้อความ */
+}
+.tele:hover{
+    background-color: #ffddd8;
+}
+.btn span.icon {
+  background: url("../Image/line.webp") no-repeat;
+  float: left;
+  width: 10px;
+  height: 40px;
+}
+@media screen and (max-width: 480px) {
+  
+  .contact {
+    margin-top: 22rem;
+  }
+}

@@ -1,0 +1,32 @@
+.whyuse {
+  height: 100vh;
+}
+.whyuse > div > div > img {
+  text-align: center;
+}
+.whyuse > div > div > h4 {
+  font-size: 2em;
+  font-weight: 600;
+}
+.img-whyuse {
+  border-radius: 1rem;
+  width: 60%;
+}
+.headtitle {
+  font-size: 2em;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+  .whyuse {
+    margin-top: 23rem;
+    height: 100vh;
+  }
+  .whyuse > div > div > img {
+    display: none;
+  }
+  .headtitle {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}

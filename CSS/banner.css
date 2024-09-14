@@ -1,0 +1,112 @@
+/* CSS สำหรับแบนเนอร์ */
+
+.banner-content h1 {
+  font-size: 6rem; /* ขนาดข้อความหัวเรื่อง */
+  font-weight: bold;
+  text-transform: uppercase; /* แปลงข้อความให้เป็นตัวใหญ่ทั้งหมด */
+  letter-spacing: 3px; /* ระยะห่างระหว่างตัวอักษร */
+  margin-bottom: 20px; /* ระยะห่างด้านล่าง */
+  animation: fadeInDown 1s ease-out; /* เพิ่มเอฟเฟกต์การแสดงผล */
+}
+
+.banner-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px; /* ระยะห่างด้านล่าง */
+  line-height: 1.6; /* ระยะห่างระหว่างบรรทัด */
+  animation: fadeInUp 1.5s ease-out; /* เพิ่มเอฟเฟกต์การแสดงผล */
+}
+
+.btn-banner {
+  margin-left: 6rem;
+  margin-top: 5rem;
+  position: absolute;
+  font-size: 1.2em;
+  text-transform: uppercase; /* แปลงข้อความเป็นตัวพิมพ์ใหญ่ */
+  background-color: #43aa8b; /* สีพื้นหลังของปุ่ม */
+  color: white; /* สีตัวอักษรของปุ่ม */
+  padding: 15px 30px; /* ขนาดของปุ่ม */
+  border-radius: 50px; /* มุมโค้งของปุ่ม */
+  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นแบบมือ */
+  text-decoration: none; /* เอาเส้นใต้ของลิงก์ออก */
+}
+
+.btn-banner:hover {
+  background-color: #ff6f59; /* สีพื้นหลังเมื่อ hover */
+}
+
+.btn-banner2 {
+  margin-left: 20rem;
+  margin-top: 5rem;
+  position: absolute;
+  font-size: 1.2em;
+  text-transform: uppercase; /* แปลงข้อความเป็นตัวพิมพ์ใหญ่ */
+  background-color: #43aa8b; /* สีพื้นหลังของปุ่ม */
+  color: white; /* สีตัวอักษรของปุ่ม */
+  padding: 15px 30px; /* ขนาดของปุ่ม */
+  border-radius: 50px; /* มุมโค้งของปุ่ม */
+  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นแบบมือ */
+  text-decoration: none; /* เอาเส้นใต้ของลิงก์ออก */
+}
+
+.btn-banner2:hover {
+  background-color: #ff6f59; /* สีพื้นหลังเมื่อ hover */
+}
+
+.banner {
+  margin-top: 10rem;
+}
+.banner-img {
+  position: relative;
+  margin-top: 5rem;
+  width: 40%;
+}
+.banner-img > div > img {
+  margin-left: -5rem;
+  border-radius: 1%;
+  object-fit: cover;
+}
+
+.banner-content > h2 {
+  font-size: 2.1em;
+}
+
+.banner-content {
+  border-radius: 1rem;
+  padding: 1rem;
+  block-size: 15rem;
+}
+
+.banner-content > h2,
+p {
+  margin-top: -5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .btn-banner {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .btn-banner2 {
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+  .banner-img > div > img {
+    margin-top: 3rem;
+    margin-left: 0rem;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+  .banner-img > div {
+    text-align: center;
+  }
+  .banner {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .banner-content > h2,
+  p {
+    margin-top: 1rem;
+  }
+}

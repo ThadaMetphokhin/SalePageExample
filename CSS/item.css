@@ -1,0 +1,14 @@
+.item{
+    height: 100vh;
+}
+.itempromote{
+    border-radius: 1rem;
+    height: 10rem;
+    background-color: #FF6F59;
+}
+
+@media screen and (max-width:480px) {
+    .item{
+        margin-left: -0.7rem;
+    }
+}

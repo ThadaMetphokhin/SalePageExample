@@ -1,0 +1,17 @@
+.aboutcompany{
+    height: 100vh;
+}
+
+
+.text-follow{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight:bold;
+}
+
+@media screen and (max-width:480px) {
+    .aboutcompany{
+        height: 100vh;
+    }
+    
+}

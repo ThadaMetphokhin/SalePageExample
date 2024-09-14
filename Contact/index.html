@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sale Page Example 1" />
+    <!--Animation Scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--iCONs-->
+    <link href="../Image/icon.webp" rel="icon" />
+    <!--CSS banner-->
+    <link href="./CSS/footer.css" rel="stylesheet" />
+    <!-- bulma JavaScript -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.2/css/bulma.min.css"
+      integrity="sha512-RpeJZX3aH5oZN3U3JhE7Sd+HG8XQsqmP3clIbu4G28p668yNsRNj3zMASKe1ATjl/W80wuEtCx2dFA8xaebG5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>SalePageEx1</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+
+      body {
+        font-family: "Prompt", system-ui;
+        font-weight: 300;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav
+      class="navbar is-fixed-top is-light"
+      role="navigation"
+      aria-label="main navigation"
+      style="opacity: 0.9"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="./">
+          <img src="../Image/icon.webp" style="mix-blend-mode: multiply;"/>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="../"> หน้าแรก </a>
+
+          <a class="navbar-item"> เกี่ยวกับเรา </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> สินค้า </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item"> About </a>
+              <a class="navbar-item is-selected"> Jobs </a>
+              <a class="navbar-item"> Contact </a>
+              <hr class="navbar-divider" />
+              <a class="navbar-item"> Report an issue </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="section is-medium contact">
+      <div class="columns">
+        <div class="column ">
+          <h1>ติดต่อเรา บริษัท .....</h1>
+          <p>โรงงาน ...................</p>
+          <ul style="list-style: disc; margin-left: 3rem">
+            <li>โทรศัพท์: 12345678</li>
+            <li>ไลน์: @Line</li>
+            <li>อีเมล: test@gmail.com</li>
+          </ul>
+        </div>
+        <div class="column has-text-centered">
+            <img src="../Image/Banner.webp" alt="banner brand" width="300" style="border-radius: 2rem;"/>
+        </div>
+      </div>
+      
+      <div class="has-text-centered card maps" style="margin-top: -1rem;">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496114.0486498241!2d100.3034340127799!3d13.725048157422627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d6032280d61f3%3A0x10100b25de24820!2z4LiB4Lij4Li44LiH4LmA4LiX4Lie4Lih4Lir4Liy4LiZ4LiE4Lij!5e0!3m2!1sth!2sth!4v1726229205296!5m2!1sth!2sth"
+        width="1180"
+        height="450"
+        style="border: 0;border-radius: 1rem;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      </div>
+      
+    </section>
+    <!--Footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h2>เกี่ยวกับเรา</h2>
+          <p>
+            เราเป็นร้านค้าที่เน้นคุณภาพสินค้าและบริการเป็นสำคัญ
+            สินค้าของเรามีการคัดสรรอย่างพิถีพิถันเพื่อมอบประสบการณ์ที่ดีที่สุดให้กับลูกค้า
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h2>ลิงก์สำคัญ</h2>
+          <ul>
+            <li><a href="./">หน้าแรก</a></li>
+            <li><a href="#">สินค้าทั้งหมด</a></li>
+            <li><a href="#">บริการ</a></li>
+            <li><a href="#">ติดต่อเรา</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h2>ติดต่อเรา</h2>
+          <p><i class="fas fa-phone"></i> +66 123 456 789</p>
+          <p><i class="fas fa-envelope"></i> info@yourwebsite.com</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="./JS/index.js"></script>
+</html>

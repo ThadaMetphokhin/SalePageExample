@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sale Page Example 1" />
+    <!--Animation Scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--iCONs-->
+    <link href="./Image/icon.png" rel="icon" />
+    <!--CSS banner-->
+    <link href="./CSS/banner.css" rel="stylesheet" />
+    <link href="./CSS/aboutcompany.css" rel="stylesheet" />
+    <link href="./CSS/whyuse.css" rel="stylesheet" />
+    <link href="./CSS/footer.css" rel="stylesheet" />
+    <link href="./CSS/item.css" rel="stylesheet" />
+    <link href="./CSS/contact.css" rel="stylesheet" />
+    <!-- bulma JavaScript -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.2/css/bulma.min.css"
+      integrity="sha512-RpeJZX3aH5oZN3U3JhE7Sd+HG8XQsqmP3clIbu4G28p668yNsRNj3zMASKe1ATjl/W80wuEtCx2dFA8xaebG5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>SalePageEx1</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+
+      body {
+        font-family: "Prompt", system-ui;
+        font-weight: 300;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav
+      class="navbar is-fixed-top is-light"
+      role="navigation"
+      aria-label="main navigation"
+      style="opacity: 0.9"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="./">
+          <img
+            src="./Image/icon.webp"
+            style="mix-blend-mode: multiply"
+            alt="icon brand"
+          />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item " href="./"> หน้าแรก </a>
+
+          <a class="navbar-item" href="#"> เกี่ยวกับเรา </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#"> สินค้า </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#"> About </a>
+              <a class="navbar-item is-selected" href="#"> Jobs </a>
+              <a class="navbar-item" href="#"> Contact </a>
+              <hr class="navbar-divider" />
+              <a class="navbar-item" href="#"> Report an issue </a>
+            </div>
+          </div>
+          <a class="navbar-item" href="./Contact/"> ติดต่อเรา </a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- แบนเนอร์โปรโมท -->
+
+    <section class="hero is-fullheight">
+      <div class="level">
+        <div class="level-left hero-body">
+          <div data-aos="fade-right">
+            <div class="banner-content">
+              <h2 style="color: #ff6f59">
+                โปรโมชั่นพิเศษ! สินค้าลดราคาสูงสุด 50%
+              </h2>
+              <p>พบกับสินค้าคุณภาพในราคาพิเศษ เฉพาะช่วงเวลานี้เท่านั้น</p>
+              <a href="#" class="btn-banner">ดูสินค้า</a>
+              <a href="#" class="btn-banner2">ติดต่อเรา</a>
+            </div>
+          </div>
+        </div>
+        <div class="level-right banner-img">
+          <div data-aos="fade-right" class="setimg">
+            <img src="./Image/Banner.webp" alt="Banner For Sale" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section is-medium aboutcompany">
+      <div data-aos="fade-up" data-aos-duration="1200">
+        <h1 class="title" style="margin-bottom: 2rem; color: #43aa8b">
+          โรงงานผลิต ....
+        </h1>
+        <h2 class="subtitle">
+          โรงงานผลิตเป็นเสาหลักของการผลิตในภาคอุตสาหกรรม
+          โดยแปรรูปวัตถุดิบเป็นสินค้าสำเร็จรูปที่ช่วยกระตุ้นเศรษฐกิจทั่วโลก
+          สิ่งอำนวยความสะดวกเหล่านี้มีความสำคัญไม่เพียงแต่ในการจัดหาผลิตภัณฑ์สำหรับผู้บริโภคเท่านั้น
+          แต่ยังรวมถึงการสร้างงานและขับเคลื่อนความก้าวหน้าทางเทคโนโลยีด้วย
+          กระบวนการที่ใช้ภายในโรงงานเหล่านี้มีความหลากหลาย
+          ตั้งแต่สายการประกอบที่เน้นประสิทธิภาพไปจนถึงการผลิตแบบเป็นชุดที่สามารถปรับแต่งได้
+          ดังนั้น การทำความเข้าใจความซับซ้อนของโรงงานผลิต
+          อุปกรณ์ที่รองรับการผลิตและการจัดจำหน่าย
+          และระบบโลจิสติกส์ที่เกี่ยวข้องในการส่งมอบผลิตภัณฑ์ให้กับผู้บริโภคจึงมีความจำเป็นต่อการเข้าใจภูมิทัศน์ทางเศรษฐกิจที่กว้างขึ้น
+          เรียงความนี้จะสำรวจสามแง่มุมที่สำคัญของการผลิต
+          โดยเน้นถึงความสำคัญและความท้าทายที่ต้องเผชิญในตลาดที่มีการเปลี่ยนแปลงอย่างรวดเร็วในปัจจุบัน
+        </h2>
+        <h3
+          style="
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
+            margin-bottom: 3rem;
+            margin-top: 3rem;
+            color: #ff6f59;
+          "
+        >
+          ยอดผู้ติดตาม
+        </h3>
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Tweets</p>
+              <p class="title">3,456</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Following</p>
+              <p class="title">123</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Followers</p>
+              <p class="title">456K</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Likes</p>
+              <p class="title">789</p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="section is-medium whyuse text-centered">
+      <div
+        class="columns is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd"
+      >
+        <div class="column">
+          <img
+            class="img-whyuse"
+            src="./Image/whytouse.webp"
+            alt="why to use"
+          />
+        </div>
+        <div class="column">
+          <div data-aos="fade-down-right">
+            <h4 class="headtitle" style="color: #43aa8b">ทำไมต้องเลือกเรา ?</h4>
+            <p class="subtitle" style="word-wrap: break-word">
+              โรงงานผลิตมีบทบาทสำคัญในการผลิตและจัดจำหน่ายสินค้าโดยเป็นกระดูกสันหลังของเศรษฐกิจอุตสาหกรรม
+              กระบวนการผลิตประเภทต่างๆ
+              ที่ใช้ในโรงงานเหล่านี้ควบคู่ไปกับอุปกรณ์ที่ทันสมัยที่ใช้
+              เน้นย้ำถึงความซับซ้อนและความหลากหลายของการผลิตสมัยใหม่
+              อย่างไรก็ตาม
+              การจัดการด้านโลจิสติกส์ที่มีประสิทธิภาพในการจัดจำหน่ายและการจัดส่งก็มีความสำคัญเท่าเทียมกัน
+              เพราะช่วยให้มั่นใจได้ว่าผลิตภัณฑ์จะถึงมือผู้บริโภคอย่างมีประสิทธิภาพและตรงเวลา
+              ในขณะที่ภูมิทัศน์การผลิตยังคงพัฒนาอย่างต่อเนื่อง
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section is-medium item has-text-centered">
+      <div class="fixed-grid has-2-cols-mobile has-4-cols-desktop">
+        <h2
+          class="has-text-centered"
+          style="
+            margin-bottom: 2rem;
+            font-size: 2em;
+            font-weight: 700;
+            color: #43aa8b;
+          "
+        >
+          สินค้าของเรา
+        </h2>
+        <div class="grid is-gap-2">
+          <div class="cell">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="700"
+            >
+              <div class="itempromote">สินค้า</div>
+              <h3 style="color: #ff6f59">ชื่อ</h3>
+              <p style="color: #43aa8b">รายละเอียดสินค้า</p>
+            </div>
+          </div>
+          <div class="cell">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
+              <div class="itempromote">สินค้า</div>
+              <h3 style="color: #ff6f59">ชื่อ</h3>
+              <p style="color: #43aa8b">รายละเอียดสินค้า</p>
+            </div>
+          </div>
+          <div class="cell">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
+              <div class="itempromote">สินค้า</div>
+              <h3 style="color: #ff6f59">ชื่อ</h3>
+              <p style="color: #43aa8b">รายละเอียดสินค้า</p>
+            </div>
+          </div>
+          <div class="cell">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
+              <div class="itempromote">สินค้า</div>
+              <h3 style="color: #ff6f59">ชื่อ</h3>
+              <p style="color: #43aa8b">รายละเอียดสินค้า</p>
+            </div>
+          </div>
+          <div class="cell">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
+              <div class="itempromote">สินค้า</div>
+              <h3 style="color: #ff6f59">ชื่อ</h3>
+              <p style="color: #43aa8b">รายละเอียดสินค้า</p>
+            </div>
+          </div>
+          <div class="cell">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
+              <div class="itempromote">สินค้า</div>
+              <h3 style="color: #ff6f59">ชื่อ</h3>
+              <p style="color: #43aa8b">รายละเอียดสินค้า</p>
+            </div>
+          </div>
+          <div class="cell">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
+              <div class="itempromote">สินค้า</div>
+              <h3 style="color: #ff6f59">ชื่อ</h3>
+              <p style="color: #43aa8b">รายละเอียดสินค้า</p>
+            </div>
+          </div>
+          <div class="cell">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
+              <div class="itempromote">สินค้า</div>
+              <h3 style="color: #ff6f59">ชื่อ</h3>
+              <p style="color: #43aa8b">รายละเอียดสินค้า</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section is-medium contact">
+      <div class="card" style="padding-top: 5rem; padding-bottom: 5rem;">
+        <div class="has-text-centered">
+          <h1 style="font-size: 1.4em; color: #43aa8b">
+            รับผลิตสกินเเคร์สร้างแบรนด์ เริ่มต้นเพียงหลักพัน
+          </h1>
+          <p>
+            ทุกๆ บริการเชื่อใจเรา ผลิตภัณฑ์บำรุงผิว อาหารเสริมสุขภาพ
+            ที่คุณไว้ว่างใจ
+          </p>
+        </div>
+        <div class="has-text-centered social-contact">
+          <div class="level">
+            <div class="level-item">
+              <button class="line">
+                <img width="50" src="./Image/line.webp" />Line
+              </button>
+            </div>
+            <div class="level-item">
+              <button class="Facebook">
+                <img width="50" src="./Image/facebook.webp" />Facebook
+              </button>
+            </div>
+            <div class="level-item">
+              <button class="tele">
+                <img width="50" src="./Image/phone-call.webp" />โทรเลย
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h2>เกี่ยวกับเรา</h2>
+          <p>
+            เราเป็นร้านค้าที่เน้นคุณภาพสินค้าและบริการเป็นสำคัญ
+            สินค้าของเรามีการคัดสรรอย่างพิถีพิถันเพื่อมอบประสบการณ์ที่ดีที่สุดให้กับลูกค้า
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h2>ลิงก์สำคัญ</h2>
+          <ul>
+            <li><a href="./">หน้าแรก</a></li>
+            <li><a href="#">สินค้าทั้งหมด</a></li>
+            <li><a href="#">บริการ</a></li>
+            <li><a href="./Contact/">ติดต่อเรา</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h2>ติดต่อเรา</h2>
+          <p><i class="fas fa-phone"></i> +66 123 456 789</p>
+          <p><i class="fas fa-envelope"></i> info@yourwebsite.com</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="./JS/index.js"></script>
+</html>
