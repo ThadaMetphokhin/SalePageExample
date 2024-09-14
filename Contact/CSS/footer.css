@@ -1,7 +1,7 @@
 /* CSS: Footer */
 footer {
-    background-color: #222;
-    color: #ddd;
+    background-color: #43AA8B;
+    color: #254441;
     padding: 40px 0;
     font-family: 'Arial', sans-serif;
 }
@@ -59,19 +59,4 @@ footer {
 
 .footer-bottom p {
     margin: 0;
-}
-.contact{
-    height:150vh;
-}
-.maps{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 4rem;
-}
-
-@media screen and (max-width:480px) {
-    .maps > iframe{
-        width: 100%;
-    }
 }
